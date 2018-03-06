@@ -5,10 +5,12 @@ import time as t
 
 '''
 def height_to_wieght():
+	#future ideas
+	#possible ratio to be over or under like if >1 then do this, else <1 tdo that 	
 '''
 
-Power_on = 'Y'
-while Power_on == 'Y'): #Power on or open app
+Continue_YN = 'Y'
+while Continue_YN == 'Y'): #Power on or open app
 
 	feet = int (input('how tall are you in feet '))
 	inches = int (input('how tall are you in inches '))
@@ -49,11 +51,5 @@ while Power_on == 'Y'): #Power on or open app
 		print (GoToDr)
 		t.sleep(.5)
 	
-	Power_on = str(input ('Continue? Y/N?'))
-
-
-
-
-
-
-
+	Continue_YN = str(input ('Continue? Y/N?'))
+	Continue_YN.upper()

@@ -1,3 +1,4 @@
+#3/19/2018
 from tkinter import Tk as new_win
 from tkinter import *
 import random
@@ -15,7 +16,7 @@ def magic ():
 	Ask.delete()
 	
 		
-
+from tkinter import Tk as new_win
 name = 'Magic8'
 #size = '400x400'
 

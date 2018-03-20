@@ -13,37 +13,26 @@ def magic ():
 	
 	else:
 		print ('maybe')
-	Ask.delete()
-	
-		
-from tkinter import Tk as new_win
+			
 name = 'Magic8'
 #size = '400x400'
 
-
-
+#the main window code
 Main_win = new_win()
 #Main_win.geometry(size)
 Main_win.title(name)
 
+#window objects
 Question = Label(Main_win, text = 'What will you ask the magic8?')
 Ask = Entry(Main_win)
-
-
 Close = Button(Main_win, text = 'Close', command = Main_win.quit )
-Close.place(x= 320, y= 350)
-
 Fortune = Button(Main_win, text = 'Fortune', command = magic)
 
+#Oriantaion of thet window
 Question.grid(row = 0, column = 1)
 Fortune.grid(row = 1 ,column = 0)
 Ask.grid(row = 1, column = 1)
 Close.grid(row = 2, column = 2)
 
-
-
+#the loop where the window runs till exited out 
 Main_win.mainloop()
- 
-
-
-

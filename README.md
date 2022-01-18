@@ -1,5 +1,6 @@
-# Python3
-My Python
-This is just a place to store my code while i learn
+# Python_New_Learning
+This repo was create as a place to store the fundamentals as well as get a feel for using git.
 
-will make a showcase folder in near future for a resume/portfolio
+There is nothing special here.
+
+Thank you.
